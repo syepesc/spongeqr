@@ -60,6 +60,9 @@ defmodule Spongeqr.MixProject do
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.5"},
 
+      # Non default phoenix deps
+      {:qr_code, "~> 3.2.0"},
+
       # Dev deps
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
