@@ -17,7 +17,7 @@ defmodule SpongeqrWeb.Router do
   scope "/", SpongeqrWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", HomeLive
   end
 
   # Other scopes may use custom stacks.
